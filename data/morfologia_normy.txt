@@ -1,0 +1,24 @@
+﻿wskaznik	jednostka	norma_dol	norma_gora
+Leukocyty	x10^3/ul	4	10
+Erytrocyty	x10^6/ul	3.8	5.4
+Hemoglobina	g/dl	12	16
+Hematokryt	%	37	47
+MCV	fl	80	100
+MCH	pg	27	31
+MCHC	g/dl	32	36
+Płytki krwi	x10^3/ul	130	400
+P_LCR	%	13	43
+RDW-CV	%	11.5	16
+MPV	fl	9.6	12
+Kreatynina	mg/dl	0.5	0.9
+GFR	ml/min/1,73m2	60	NA
+ALT	U/l	NA	33
+Żelazo	ug/dl	37	145
+Cholesterol	mg/dl	115	190
+HDL	mg/dl	45	NA
+LDL	mg/dl	NA	115
+Triglicerydy	mg/dl	35	150
+Glukoza	mg/dl	70	99
+TSH3	mlU/l	0.27	4.2
+B12	pg/ml	197	866
+Kwas foliowy	ng/ml	4.8	37.3

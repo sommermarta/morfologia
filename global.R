@@ -1,0 +1,10 @@
+library("data.table")
+library("dplyr")
+library("plotly")
+library("ggplot2")
+library("shiny")
+library("shinydashboard")
+library("dygraphs")
+library("stringi")
+
+source("./scripts/functions/rysuj_wybrany_wskaznik.R", encoding = "UTF-8")
