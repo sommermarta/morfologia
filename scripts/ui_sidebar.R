@@ -1,6 +1,6 @@
 sidebar <- dashboardSidebar(
     
-    collapsed = TRUE,
+    collapsed = FALSE,
     
     sidebarMenu(
         

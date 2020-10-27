@@ -6,5 +6,6 @@ library("shiny")
 library("shinydashboard")
 library("dygraphs")
 library("stringi")
+library("tidyr")
 
 source("./scripts/functions/rysuj_wybrany_wskaznik.R", encoding = "UTF-8")

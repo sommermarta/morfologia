@@ -7,7 +7,7 @@ source("./scripts/ui_body.R", encoding = "UTF-8")
 
 dashboardPage(
     
-    skin = "red",
+    skin = "blue",
     
     header,
     sidebar,

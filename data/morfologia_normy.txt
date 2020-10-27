@@ -1,4 +1,4 @@
-﻿wskaznik	jednostka	norma_dol	norma_gora
+wskaznik	jednostka	norma_dol	norma_gora
 Leukocyty	x10^3/ul	4	10
 Erytrocyty	x10^6/ul	3.8	5.4
 Hemoglobina	g/dl	12	16
