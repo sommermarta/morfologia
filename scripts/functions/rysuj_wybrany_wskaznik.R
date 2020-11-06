@@ -41,7 +41,8 @@ rysuj_wybrany_wskaznik <- function(wybrany_wskaznik,
                                  xend = as.Date(morfologia_wydarzenia$od[i]),
                                  y = 0,
                                  yend = 1.1 * max(wybrany_wskaznik_morfologia_wyniki$wartosc, wybrany_wskaznik_morfologia_normy$norma_gora, na.rm = TRUE),
-                                 line = list(dash = "dash", color = "#C0C0C0")) %>% 
+                                 line = list(dash = "dash", color = "#C0C0C0"),
+                                 showlegend = FALSE) %>% 
                     add_annotations(x = as.Date(morfologia_wydarzenia$od[i]),
                                     y = 0,
                                     text = morfologia_wydarzenia$co[i],
@@ -56,7 +57,8 @@ rysuj_wybrany_wskaznik <- function(wybrany_wskaznik,
                                  xend = as.Date(morfologia_wydarzenia$od[i]),
                                  y = 0,
                                  yend = 1.1 * max(wybrany_wskaznik_morfologia_wyniki$wartosc, wybrany_wskaznik_morfologia_normy$norma_gora, na.rm = TRUE),
-                                 line = list(dash = "dash", color = "#C0C0C0")) %>% 
+                                 line = list(dash = "dash", color = "#C0C0C0"),
+                                 showlegend = FALSE) %>% 
                     add_annotations(x = as.Date(morfologia_wydarzenia$od[i]),
                                     y = 0,
                                     text = paste0(morfologia_wydarzenia$co[i], " START"),
@@ -71,7 +73,8 @@ rysuj_wybrany_wskaznik <- function(wybrany_wskaznik,
                                      xend = as.Date(morfologia_wydarzenia$do[i]),
                                      y = 0,
                                      yend = 1.1 * max(wybrany_wskaznik_morfologia_wyniki$wartosc, wybrany_wskaznik_morfologia_normy$norma_gora, na.rm = TRUE),
-                                     line = list(dash = "dash", color = "#C0C0C0")) %>% 
+                                     line = list(dash = "dash", color = "#C0C0C0"),
+                                     showlegend = FALSE) %>% 
                         add_annotations(x = as.Date(morfologia_wydarzenia$do[i]),
                                         y = 0,
                                         text = paste0(morfologia_wydarzenia$co[i], " END"),
